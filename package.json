@@ -25,4 +25,12 @@
   "engines": {
     "node": ">=18"
   }
+  // package.json
+{
+  "scripts": {
+    "prebuild": "chmod +x node_modules/.bin/vite",
+    "build": "vite build"
+  }
+}
+
 }
